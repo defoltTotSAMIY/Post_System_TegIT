@@ -1,10 +1,11 @@
+import Home from "./UIPage/Pages/Home/Home";
 
 
 
 function App() {
   return (
     <div className="App">
-
+      <Home />
     </div>
   );
 }
