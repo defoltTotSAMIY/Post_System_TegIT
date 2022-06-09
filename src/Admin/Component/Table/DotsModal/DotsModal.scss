@@ -1,0 +1,25 @@
+.EditDelet {
+    position: absolute;
+    list-style: none;
+    height: 72px;
+    width: 110px;
+    border-radius: 10px;
+    background: #141432;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+}
+
+.openEdit{
+    display: block !important;
+}
+
+
+.noneEdit{
+    display: none;
+}
+.editm {
+    display: flex;
+    justify-content: space-evenly;
+}
