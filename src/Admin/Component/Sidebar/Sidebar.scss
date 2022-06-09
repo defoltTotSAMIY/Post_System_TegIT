@@ -1,0 +1,91 @@
+@import '../../assets/asset.scss';
+
+
+
+
+.sidebar_close{
+    width: 4% !important;
+}
+.sidebar_open{
+    width: 17% !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .sidebar_close{
+    width: 10% !important;
+  }
+    .sidebar_open{
+      width: 70% !important;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .sidebar_close{
+    width: 9% !important;
+  }
+    .sidebar_open{
+      width: 70% !important;
+  }
+  .sidebar__link  {
+    padding: 11px 0px 11px 20% !important;
+  }
+}
+
+
+.sidebar__body{
+  width: 17%;
+  height: 100vh;
+  background-color: $main-color;
+  position: fixed;
+  border-right: .1em solid #566573;
+  transition: all 0.1s ease-in-out;
+}
+
+.sidebar__container{
+  padding: 5px;
+}
+
+.sidebar__logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $text-color;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.sidebar__logo span{
+  font-size: 22px;
+  font-weight: 450;
+  line-height: 28px;
+  font-family: rb-r;
+}
+.sidebar__logo i{
+  font-size: 22px;
+  color: $text-color;
+}
+.sidebar__item{
+  padding-top: 40px;
+}
+.sidebar__item i{
+  padding-right: 12px;
+}
+.sidebar__link{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: rb-r;
+  color: $text-color;
+  padding: 11px 0px 11px 15px;
+  transition: 0.1s;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+.sidebar__link:hover{
+  background-color: #474765;
+}
+a{
+  text-decoration: none;
+  color: $text-color;
+  text-transform: capitalize;
+}

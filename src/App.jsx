@@ -1,8 +1,9 @@
 import React, { memo } from "react";
 import { Input_1 } from "./Components";
-
+import Main from "./Admin/Main";
 
 function App() {
+<<<<<<< HEAD
   return (
     <div className="App">
       <h1>App</h1>
@@ -11,6 +12,13 @@ function App() {
       </div>
     </div>
   );
+=======
+    return (
+        <div className="App">
+            <Main />
+        </div>
+    );
+>>>>>>> b6deb76d1f597613ad166ae7bce118c3b5fc61f8
 }
 
 export default memo(App);

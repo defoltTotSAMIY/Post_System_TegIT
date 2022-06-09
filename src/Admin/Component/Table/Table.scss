@@ -1,0 +1,105 @@
+@import "../../assets/asset.scss";
+
+.tableBg {
+    width: 98%;
+    background-color: $main-color;
+    padding: 12px;
+}
+
+.tableName {
+    width: 100%;
+    color: rgb(160, 159, 159);
+}
+
+
+.id {
+    color: #ffffff;
+}
+
+.teb_img1 {
+    width: 35px;
+    height: 35px;
+    background: $main-color;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-image: url('../Table/TableImg/im1.png');
+}
+
+.request {
+    color: #ffffff;
+}
+
+.subject {
+    color: #ffffff;
+
+}
+
+.box {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+}
+
+.teb_img2 {
+    width: 35px;
+    height: 35px;
+    background: $main-color;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-image: url('../Table/TableImg/im2.png');
+}
+
+.priority {
+    width: 92px;
+    height: 34px;
+    border-radius: 17px;
+    border: 1px solid rgba(255, 255, 255, 0.608);
+    color: rgb(255, 166, 0);
+    background-color: #f38b1533;
+    text-align: center;
+    font-size: 17px;
+}
+
+.status {
+    height: 34px;
+    width: 84px;
+    text-align: center;
+    border-radius: 17px;
+    border: 1px solid rgba(255, 255, 255, 0.608);
+    background-color: #14c25a33;
+    color: #00ff66;
+    font-size: 17px;
+}
+
+.createData {
+    color: rgb(160, 159, 159);
+}
+
+.dueData {
+    color: #ffffff;
+}
+
+.action {
+    width: 34px;
+    text-align: center;
+}
+
+.bx-dots-horizontal-rounded {
+    border-radius: 4px;
+    font-size: 28px;
+    height: 24px;
+    color: rgba(255, 255, 255, 0.608);
+}
+
+.bx-dots-horizontal-rounded:hover {
+    background-color: $body-Color;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 960px) {
+    .t-none{
+        display: none;
+    }
+}
